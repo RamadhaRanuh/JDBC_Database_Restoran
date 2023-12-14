@@ -1,5 +1,4 @@
 package restaurant_AOL;
-import java.util.*;
 
 public class FoodOrderingApp 
 {
@@ -11,6 +10,8 @@ public class FoodOrderingApp
     	new FoodOrderingAppGUI();
 
     }
+    
+    
     
 }
 

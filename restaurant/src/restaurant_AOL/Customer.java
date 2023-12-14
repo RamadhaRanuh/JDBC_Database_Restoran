@@ -55,12 +55,16 @@ public class Customer
         this.money = money;
     }
 
-    public void updateProfile(String name, int age, String address)
-    {
-    	this.name = name;
-        this.age = age;
-        this.address = address;
-        
+    public void updateProfile(String newName, Integer newAge, String newAddress) {
+        if (newName != null) {
+            this.name = newName;
+        }
+        if (newAge != null) {
+            this.age = newAge;
+        }
+        if (newAddress != null) {
+            this.address = newAddress;
+        }
     }
 
     public boolean makePayment(int amount) 
